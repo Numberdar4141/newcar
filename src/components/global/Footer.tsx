@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { footerLinks, getInTouch, socialLinks } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import logo from "/images/logo_white.png";
+import logo from "/images/blacklogo.png";
 function Footer() {
   return (
     <footer className=" bg-black text-white/60">

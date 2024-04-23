@@ -21,10 +21,11 @@ function NerverWorrySection() {
         <div className="xxl:col-start-7 col-span-12 lg:col-span-6">
           <FadeRight>
             <h1 className="display-4 ">
-            Simplify Accounting for Your New Vehicle
+            How We Guarantee It
             </h1>
             <p className="pt-6 text-bodyText pb-6 xl:pb-8">
-            Streamline your finances effortlessly with our tailored accounting solutions, designed exclusively for your new vehicle. Say goodbye to accounting stress and hello to smooth rides ahead!
+            Thorough Market Research , Before setting our prices, we conduct extensive market research to understand the pricing landscape. This allows us to negotiate the best possible rates with our suppliers and pass those savings directly on to you.
+
             </p>
             <div className="flex flex-col gap-6 xl:gap-10 justify-start items-start pb-6 xl:pb-12">
               {neverWorry.map(({ id, title, desc, icon }) => (

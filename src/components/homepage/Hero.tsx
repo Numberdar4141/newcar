@@ -5,18 +5,18 @@ import heroIllus from "/images/herobg7.png";
 import FadeRight from "../animation/FadeRight";
 
 function Hero() {
-  const text = "Payroll";
+  const text = "Transaction";
   const animateWord = text.split("");
   return (
-    <section className="  bg-repeat stp-30  overflow-hidden">
+    <section className="  bg-repeat  stp-30  lg:mt-[100px] overflow-hidden">
      
      
       <div className="absolute -left-[200px]  rounded-[1176px] max-w-full lg:w-[1176px] h-[1176px] overflow-hidden"></div>
       <div className="xxl:ml-[calc((100%-1296px)/2)] lg:max-xxl:py-10 max-xxl:container relative z-20 max-lg:pt-15 text-s1 grid grid-cols-12 ">
       
         <div className="col-span-12 lg:col-span-5 flex flex-col justify-center gap-2">
-          <p className="uppercase text-base lg:text-xl font-semibold">
-            Efficiency Payroll and workforce mastery{" "}
+          <p className=" text-base lg:text-xl font-semibold">
+          Deal crafted before your arrival{" "}
           </p>
           <div className="display-2 ">
             We Make{" "}
@@ -30,8 +30,8 @@ function Hero() {
             <br /> Painless.
           </div>
           <p className="max-w-[550px]">
-            We get your employees paid while providing online access to
-            paystubs, tax reports & payroll tax filings.
+          Drive away with peace of mind - Pre-negotiated lowest price on your dream car, guaranteed. No haggling, just satisfaction
+
           </p>
           <div className="flex justify-start items-center gap-4 pt-6 lg:pt-8 pb-15">
             <Link

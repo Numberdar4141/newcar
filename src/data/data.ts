@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
+import { IoTimerSharp } from "react-icons/io5";
 import {
   PiBinocularsFill,
   PiBuildingsFill,
@@ -447,26 +448,26 @@ export const featuresCard = [
   {
     id: uuidv4(),
     icon: React.createElement(FaCarAlt),
-    name: "New Car Booking ",
-    desc: "Secure your dream ride hassle-free with our streamlined booking process. Experience the thrill of anticipation as you reserve your new car effortlessly",
+    name: "Consultation ",
+    desc: "Begin your journey by discussing your car preferences and delivery timeline with our experts. We tailor our services to meet your needs and ensure a seamless experience.    ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
-    name: "Insurance",
-    desc: "Protect your investment with comprehensive insurance coverage tailored for your car. Drive confidently knowing you're shielded from unexpected hurdles",
+    name: "Price Locked",
+    desc: "Rest assured knowing your savings are protected with our Lowest Price Guarantee. Our pre-negotiated competitive prices ensure you get the best deal without compromising on quality.    ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserGearFill),
-    name: "Finance",
-    desc: "Drive home your dream car with flexible financing options tailored to your needs. Experience the joy of ownership without the financial burden, starting today",
+    name: "Mode of Payment",
+    desc: "Choose from a variety of payment options, from cash transactions to securing the best interest rates through our partner banks. We offer flexibility to suit your financial preferences.    ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserPlusFill),
-    name: "Fancy Number Booking",
-    desc: "Secure a distinctive touch for your car with our exclusive fancy number booking service, elevating your driving experience to heights",
+    name: "Insurance & Registration",
+    desc: "Drive with confidence knowing your dream car is fully protected. We provide comprehensive insurance coverage, including Body to Body protection. Additionally, we handle all RTO-related paperwork for your convenience.",
   },
 ];
 
@@ -920,21 +921,21 @@ export const accountingServices = [
 export const neverWorry = [
   {
     id: uuidv4(),
-    title: "Automate Expense Tracking",
-    desc: "Effortlessly track expenses, budget, and integrate seamlessly.",
+    title: "Volume Discounts",
+    desc: " By leveraging our purchasing power and maintaining strong relationships with our suppliers, we secure volume discounts that enable us to offer unbeatable prices on our entire inventory.    ",
     icon: React.createElement(PiChatCircleFill),
   },
 
   {
     id: uuidv4(),
-    title: "Customized Budgeting Solutions",
-    desc: "Tailored budgeting solutions for informed financial decisions.",
+    title: "Elimination of Middlemen",
+    desc: " We cut out unnecessary intermediaries in the purchasing process, allowing us to reduce overhead costs and offer you more competitive prices.    ",
     icon: React.createElement(PiChartLineUpFill),
   },
   {
     id: uuidv4(),
-    title: "Seamless Integration",
-    desc: "Seamless integration ensures hassle-free accounting for your vehicle.",
+    title: "Regular Price Audits",
+    desc: "We regularly audit our prices to ensure they remain the lowest in the market. If we find a lower price elsewhere for the same vehicle, we adjust our prices accordingly to guarantee you always get the best deal",
     icon: React.createElement(PiNotePencilBold),
   },
 ];
@@ -1056,27 +1057,27 @@ export const servicesFeatures = [
 export const healthCareFeatures = [
   {
     id: uuidv4(),
-    icon: React.createElement(PiHandCoinsFill),
-    title: "Fuel Efficiency",
-    desc: "Look for cars with hybrid, electric, or highly efficient gasoline engines to save money on fuel costs and reduce your carbon footprint",
+    icon: React.createElement(IoTimerSharp),
+    title: "Save Time, Drive Sooner",
+    desc: "With pre-negotiated prices, there's no need for lengthy back-and-forth negotiations. You can find your dream car and hit the road faster    ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiGearFill),
-    title: "Safety Features",
-    desc: "Prioritize safety with advanced features like automatic emergency braking and blind-spot monitoring for peace of mind on the road.",
+    title: "Transparent and Trustworthy    ",
+    desc: "Our pre-negotiated prices come with clear terms and conditions, ensuring transparency and building trust with our customers ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHeartbeatFill),
-    title: "Technology and Connectivity",
-    desc: "Stay connected on the go with features like touchscreen infotainment, smartphone integration, and advanced driver-assistance systems.",
+    title: "Unbeatable Lowest Prices  ",
+    desc: "Our prices are pre-negotiated to guarantee you the lowest price available  ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Reliability and Resale Value",
-    desc: "Opt for a reliable car with strong resale value to minimize maintenance costs and maximize long-term value",
+    title: "Get Behind the Wheel with Confidence    ",
+    desc: "Drive off our lot knowing you got the best price without the hassle. Our pre-negotiated pricing gives you peace of mind every mile you drive.",
   },
 ];
 

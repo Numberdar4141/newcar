@@ -11,11 +11,11 @@ function Features() {
           <div className="  max-w-[600px] flex justify-center items-start flex-col">
         
             <h1 className="display-4 text-white pt-4 ">
-            Perfect solutions for your new car journey.
+            Your Dream Car Journey
             </h1>
           </div>
           <p className="text-white max-w-[500px]">
-          Unlock flawless solutions tailored for your new car adventure. From expense tracking to seamless integration, elevate your driving experience with ease. Experience perfection in every mile
+          Begin your journey towards owning your dream car with us today
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">

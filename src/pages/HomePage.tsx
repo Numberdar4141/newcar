@@ -7,7 +7,7 @@ import CounterSection from "../components/homepage/CounterSection";
 import Features from "../components/homepage/Features";
 import Hero from "../components/homepage/Hero";
 
-import Testimonial from "../components/homepage/Testimonial";
+//import Testimonial from "../components/homepage/Testimonial";
 
 import HealthCareSection from "../components/services/HealthCareSection";
 import NerverWorrySection from "../components/services/NerverWorrySection";
@@ -25,7 +25,7 @@ function HomePage() {
       <Features />
      <WeHelpSection/>
       <CounterSection />
-      <Testimonial />
+     
       <ContactSection />
       <CTASectiont />
     </main>

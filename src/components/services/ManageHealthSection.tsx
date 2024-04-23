@@ -4,7 +4,7 @@ import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
 import FadeTop from "../animation/FadeTop";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/service2.jpg";
+import img from "/images/suprisecar.jpg";
 
 function ManageHealthSection() {
   return (
@@ -46,9 +46,9 @@ function ManageHealthSection() {
             </div>
           </div>
         </div>
-        <div className="col-span-12 md:col-span-6 xl:col-span-5 xxl:col-start-8 flex justify-center items-center">
+        <div className="col-span-12 md:col-span-6 xl:col-span-5 xxl:col-start-7 flex justify-center items-center">
           <FadeRight>
-            <img src={img} alt="" />
+            <img src={img} className="" alt="" />
           </FadeRight>
         </div>
       </div>

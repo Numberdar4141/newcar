@@ -9,8 +9,9 @@ function HealthCareSection() {
       <div className="container">
         <SectionHeadingCenter
           sectionName="New Car"
-          sectionTitle="Know more to Choose Better"
-          sectionDesc="Unlock the power of informed decisions with our comprehensive new car . From specifications to reviews, find your perfect ride effortlessly."
+          sectionTitle="Why Pre-Negotiation Matters    "
+          sectionDesc="We believe in making your car buying experience as smooth and stress-free as possible. That's why we've implemented pre-negotiated pricing for all our vehicles. Here's why it matters:
+          "
         />
         <div className="grid grid-cols-12 stp-15">
           <div className="col-span-12 lg:col-span-12 xl:col-span-5 flex justify-center items-center overflow-hidden">
